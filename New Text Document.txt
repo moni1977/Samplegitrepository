@@ -1,7 +1,4 @@
 This my test file
 
 
-
-
-
-         we are testing automation testing
+we are doing automation testing
