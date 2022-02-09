@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "Data driven testing">
+
+<test name = "YahooSingUP test">
+
+ 
+
+<parameter name = "firstName" value = "Moni"></parameter>
+
+<parameter name = "lastName" value  = "Islam"></parameter>
+
+<parameter name = "Email"  value = "mouhytru87@gmail.com"></parameter>
+
+<parameter name = "PassWord" value = "Mounhh3435"></parameter>
+
+<parameter name = "PhoneNumber" value = "2020986574"></parameter>
+
+<parameter name = "EnterDate"  value = "22"></parameter>
+
+<parameter name = "EnterYear"  value = "1988"></parameter>
+
+<parameter name = "TypeGender" value = "F"></parameter>
+
+ 
+
+<classes>
+
+ 
+
+<class name = "yahooLoginHW.yahooScript"></class>
+
+ 
+
+</classes>
+
+ 
+
+</test>
+
+ 
+
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="RegressionTest(failed)">
+    <classes>
+      <class name="TestApp.SausceDemoTest">
+        <methods>
+          <include name="SaucedemoLogin1"/>
+        </methods>
+      </class> <!-- TestApp.SausceDemoTest -->
+      <class name="TestApp.YahooLogin">
+        <methods>
+          <include name="YahooSingUp"/>
+        </methods>
+      </class> <!-- TestApp.YahooLogin -->
+      <class name="TestApp.AutoMationLogin">
+        <methods>
+          <include name="TestSetUp"/>
+          <include name="AutoMationSingiIn"/>
+          <include name="AutoMationSingUp"/>
+        </methods>
+      </class> <!-- TestApp.AutoMationLogin -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name = "Data driven testing" >
+<test name = "AutoMation1">
+
+<parameter name = "Specials" value = "Specials"></parameter>
+<parameter name = "expectedUrl"  value = "http://automationpractice.com/index.php?controller=prices-drop"></parameter>
+<classes>
+
+<class name = "TestApp.AutoMationTest"></class>
+
+</classes>
+
+</test>
+
+<test name = "AutoMation2">
+
+<parameter name = "NewProducts" value = "NewProducts"></parameter>
+<parameter name = "expectedUrl"  value = "http://automationpractice.com/index.php?controller=new-products"></parameter>
+<classes>
+
+<class name = "TestApp.AutoMationTest"></class>
+
+</classes>
+
+</test>
+
+<test name = "AutoMation3">
+
+<parameter name = "BestSellers" value = "BestSellers"></parameter>
+<parameter name = "expectedUrl"  value = "http://automationpractice.com/index.php?controller=best-sales"></parameter>
+<classes>
+<class name = "TestApp.AutoMationTest"></class>
+
+</classes>
+
+</test>
+
+<test name = "AutoMation4">
+
+<parameter name = "abc" value = "OurStores"></parameter>
+<parameter name = "expectedUrl"  value = "http://automationpractice.com/index.php?controller=stores"></parameter>
+
+<classes>
+
+<class name = "dataDriven1.AutoMationDataParallel"></class>
+
+</classes>
+
+</test>
+
+<test name = "AutoMation5">
+
+<parameter name = "abc" value = "ContactUs"></parameter>
+<parameter name = "expectedUrl"  value = "http://automationpractice.com/index.php?controller=contact"></parameter>
+<classes>
+
+<class name = "TestApp.AutoMationTest"></class>
+
+</classes>
+
+</test>
+
+
+
+
+
+</suite>
+
+
+
+
+
+
+
+
+

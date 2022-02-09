@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [data driven test]">
+  <test name="SausceDemoTest releast 11.2(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="dataDriven1.differentTes">
+        <methods>
+          <include name="SaucedemoLogin1"/>
+          <include name="SaucedemoLogin2"/>
+        </methods>
+      </class> <!-- dataDriven1.differentTes -->
+    </classes>
+  </test> <!-- SausceDemoTest releast 11.2(failed) -->
+</suite> <!-- Failed suite [data driven test] -->

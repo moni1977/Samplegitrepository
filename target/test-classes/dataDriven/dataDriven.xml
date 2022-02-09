@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name = "Data driven testing">
+<test name = "Yahoo login">
+
+<parameter name = "FName" value = "Moni"></parameter>
+<parameter name = "lastname" value  = "Islam"></parameter>
+<parameter name = "Email"  value = "mouhytru87@gmail.com"></parameter>
+<parameter name = "PassWord" value = "Mounhh3435"></parameter>
+<parameter name = "cCode" value = "USA"></parameter>
+<parameter name = "PhoneNumber" value = "2020986574"></parameter>
+<parameter name = "brithmonth" value = "April"></parameter>
+<parameter name = "EnterDate"  value = "22"></parameter>
+<parameter name = "EnterYear"  value = "1988"></parameter>
+<parameter name = "TypeGender" value = "F"></parameter>
+<parameter name = "expectedUrl" value = "https://login.yahoo.com/account/create"></parameter>
+
+<classes>
+
+<class name = "dataDriven1.YahooSingUpData"></class>
+</classes>
+
+</test>
+</suite>

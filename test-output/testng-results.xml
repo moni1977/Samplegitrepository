@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Data driven testing" duration-ms="3987" started-at="2022-02-09T04:31:11Z" finished-at="2022-02-09T04:31:15Z">
+    <groups>
+    </groups>
+    <test name="YahooSingUP test" duration-ms="3987" started-at="2022-02-09T04:31:11Z" finished-at="2022-02-09T04:31:15Z">
+      <class name="yahooLoginHW.yahooScript">
+        <test-method status="PASS" signature="TestSetup()[pri:0, instance:yahooLoginHW.yahooScript@51565ec2]" name="TestSetup" is-config="true" duration-ms="2505" started-at="2022-02-08T23:31:11Z" finished-at="2022-02-08T23:31:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetup -->
+        <test-method status="PASS" signature="YahooSingUP(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:yahooLoginHW.yahooScript@51565ec2]" name="YahooSingUP" duration-ms="686" started-at="2022-02-08T23:31:13Z" finished-at="2022-02-08T23:31:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Moni]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Islam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mouhytru87@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mounhh3435]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2020986574]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1988]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YahooSingUP -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:yahooLoginHW.yahooScript@51565ec2]" name="endTest" is-config="true" duration-ms="787" started-at="2022-02-08T23:31:14Z" finished-at="2022-02-08T23:31:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- yahooLoginHW.yahooScript -->
+    </test> <!-- YahooSingUP test -->
+  </suite> <!-- Data driven testing -->
+</testng-results>

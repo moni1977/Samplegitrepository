@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "data driven test">
+<test name = "SausceDemoTest releast 11.2">
+<groups>
+<run>
+<include name = "regression"></include>
+
+</run>
+</groups>
+<classes>
+
+<class name = "dataDriven1.differentTes"></class>
+
+</classes>
+
+</test>
+</suite>

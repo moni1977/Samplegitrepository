@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name = "somke test">
+<test name = "YahooLogin">
+
+<classes>
+
+<class name = "TestApp.YahooLogin"/>
+
+</classes>
+
+</test>
+
+</suite>

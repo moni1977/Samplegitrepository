@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<suite name = "Data driven testing">
+<test name = "SaucedemoLogin1">
+
+<parameter name = "UserName" value = "standard_user"></parameter>
+<parameter name = "PassWord" value  = "secret_sauce"></parameter>
+<parameter name = "expectedUrl"  value = "https://www.saucedemo.com/inventory.html"></parameter>
+<classes>
+
+<class name = "TestApp.SausceDemoTest"></class>
+
+</classes>
+
+</test>
+
+
+<test name = "SaucedemoLogin2">
+
+<parameter name = "UserName" value = "locked_out_user"></parameter>
+<parameter name = "PassWord" value  = "secret_sauce"></parameter>
+<parameter name = "expectedUrl" value = "https://www.saucedemo.com/"></parameter>
+
+<classes>
+
+<class name = "TestApp.SausceDemoTest"></class>
+
+</classes>
+
+</test>
+
+
+
+<test name = "SaucedemoLogin3">
+
+<parameter name = "UserName" value = "problem_user"></parameter>
+<parameter name = "PassWord" value  = "secret_sauce"></parameter>
+<parameter name = "expectedUrl"  value = "https://www.saucedemo.com/inventory.html"></parameter>
+
+<classes>
+
+<class name = "TestApp.SausceDemoTest"></class>
+
+</classes>
+
+</test>
+
+
+<test name = "SaucedemoLogin4">
+
+<parameter name = "UserName" value = "performance_glitch_user"></parameter>
+<parameter name = "PassWord" value  = "secret_sauce"></parameter>
+<parameter name = "expectedUrl"  value = "https://www.saucedemo.com/inventory.html"></parameter>
+
+<classes>
+
+<class name = "TestApp.SausceDemoTest"></class>
+
+</classes>
+
+</test>
+
+</suite>
+
+
+
+
+
+
+
+
+

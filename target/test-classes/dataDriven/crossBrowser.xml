@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "Data driven testing">
+<test name = "Google chrome browser test">
+
+<parameter name = "browser" value = "chrome"></parameter>
+<classes>
+<class name = "TestApp.browserTest"></class>
+</classes>
+</test>
+<test name = "Internet explorer browserTest">
+<parameter name = "browser" value = "ie"></parameter>
+<classes>
+<class name = "TestApp.browserTest"></class>
+</classes>
+</test>
+<test name = "mozila firefox browserTest">
+<parameter name = "browser" value = "mozila"></parameter>
+<classes>
+<class name = "TestApp.browserTest"></class>
+</classes>
+</test>
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
